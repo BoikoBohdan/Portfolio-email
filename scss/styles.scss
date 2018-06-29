@@ -1,0 +1,59 @@
+@import "foundation";
+h2, h1{
+	font-weight: 700;
+	color: #566366;
+	text-align: center;
+}
+h5{
+	font-weight: 700;
+	color: #566366;
+	font-size: 20px;
+	text-align: left!important;
+}
+.nav{
+	background-color: #000!important;
+	color: #ffffff!important;
+}
+.nav__item{
+	color: #ffffff!important;
+	text-align: center;
+}
+.myself, .skills{
+	background-color: #f4f4f4!important;
+}
+.myself img{
+	width: 400px;
+}
+img.git{
+	width: 150px;
+}
+.portfolio img{
+	max-width: 600px
+}
+.portfolio__title, .portfolio__text{
+	text-align: center;
+}
+.contact{
+	background-color: #333333!important;
+	color: #ffffff!important;
+}
+.contact p, .contact h2, .contact a{
+	color: #ffffff!important;
+	text-align: center;
+}
+.contact__link a{
+	text-decoration: underline;
+}
+.foot{
+	background-color: #ffffff!important;
+}
+.foot__item a{
+	background-color: #f4f4f4!important;
+	width: 50px;
+}
+.foot__item a img{
+	width: 50px;
+}
+.google{
+	width: 40px;
+}

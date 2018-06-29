@@ -1,0 +1,171 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- The character set should be utf-8 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- Enables media queries -->
+  <meta name="viewport" content="width=device-width"/>
+  <!-- Link to the email's CSS, which will be inlined into the email -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table class="body">
+        <tr>
+            <td>
+                <center>
+                    <container class="nav">
+                      <spacer size="15"></spacer>
+                      <row>
+                        <columns small='12' large='4'><h3 class="nav__item">Обо мне</h3></columns>
+                        <columns small='12' large='4'><h3 class="nav__item">Портфолио</h3></columns>
+                        <columns small='12' large='4'><h3 class="nav__item">Навыки</h3></columns>
+                        <columns small='12' large='4'><h3 class="nav__item">Контакты</h3></columns>
+                      </row>
+                    </container>
+                    <spacer size="10"></spacer>
+                    <container class="about">
+                      <row>
+                        <columns small='12' large='4' class="about__item first">
+                          <h4 class="about__title">Ценности</h4>
+                          <p class="about__text">
+                            Считаю, что главное в людях честность, способность принимать 
+                            трудные решения и способность им следовать в дальнейшем.
+                          </p>
+                        </columns>
+                        <columns small='12' large='4' class="about__item">
+                          <h4 class="about__title">Цели</h4>
+                          <p class="about__text">
+                           Стать "синьором девелопером", завести собаку, посетить как минимум 10 различных стран.
+                          </p>
+                        </columns>
+                        <columns small='12' large='4' class="about__item last">
+                          <h4 class="about__title">Хобби</h4>
+                          <p class="about__text">
+                            Люблю складывать пазлы, читать книги, кататься на сноуборде. Хочу научиться играть на гитаре.
+                          </p>
+                        </columns>
+                      </row>
+                    </container>
+                    <container class="myself">
+                      <spacer size="20"></spacer>
+                      <row>
+                        <columns small='12' large='12'>
+                          <center>
+                            <img src="img/myself.jpg" alt="Bohdan Boiko" />
+                          </center>
+                        </columns>
+                      </row>
+                      <row>
+                        <columns small="10" large="10" class="large-offset-1 small-offset-1 first last">
+                          <h1 class="myself__title">Обо мне</h1>
+                           <spacer size="15"></spacer>
+                          <p class="myself__text">
+                            На данный момент учусь в Киевском Политехническом Институте. 
+                            Работаю в компании Mindy Support на должности Image Retoucher Photoshop. 
+                            Развиваю навыки необходимые frontend разработчику. Хочу найти работу с возможностью 
+                            и дальше развиваться и узнавать что-то новое в этой области.
+                          </p>
+                          <p class="myself__text">
+                            Легко увлекаюсь работой у которой четко виден результат, поэтому и выбрал веб-разработку. 
+                            Легко выхожу на контакт с людьми, но стараюсь по возможности не смешивать личные контакты с рабочими.
+                          </p>
+                          <a href="https://github.com/BoikoBohdan" class="myself__git"><img src="img/git.png" alt="GitHub" class="git"/></a>
+                        </columns>
+                        <columns large="1" small="1" class="last">
+                        </columns>
+                      </row>
+                      <spacer size="10"></spacer>
+                    </container>
+                    <spacer size="20"></spacer>
+                    <container class="portfolio">
+                      <row>
+                        <columns small="12" large="12"><h2  class="portfolio__title">Портфолио</h2></columns>
+                      </row>
+                      <spacer size="15"></spacer>
+                      <row>
+                        <columns>
+                          <p class="portfolio__text">На данный момент в портфолио вы можете увидеть результаты моей работы.</p>
+                        </columns>
+                      </row>
+                      <row>
+                        <columns large="12">
+                          <a href="http://homeinsky.xyz/bullsy/index.html"><img src="img/Work1.png" alt="Bullsy" /></a>
+                        </columns>
+                      </row>
+                      <spacer size="15"></spacer>
+                      <row>
+                        <columns large="12">
+                          <a href="http://homeinsky.xyz/shopno/index.html"><img src="img/Work2.png" alt="Bullsy" /></a>
+                        </columns>
+                      </row>
+                      <spacer size="15"></spacer>
+                    </container>
+                    <container class="skills">
+                      <spacer size="15"></spacer>
+                      <row>
+                        <columns large="12"><center><h2 class="skills">Навыки</h2></center></columns>
+                      </row>
+                      <row>
+                        <columns large="10" small="10" class="large-offset-1 small-offset-1">
+                          <h5>Основные навыки:</h5>
+                          <ul class="skills__list">
+                            <li class="skills__item">Кроссбраузерная, валидная, семантичная, адаптивная верстка</li>
+                            <li class="skills__item">Уверенные знания JavaScript (базовые ES6)</li>
+                            <li class="skills__item">Умею БЭМ, LESS, SASS, jQuery</li>
+                            <li class="skills__item">Все необходимые для верстальщика навыки работы с Photoshop, Avocode</li>
+                            <li class="skills__item">Учу Vue</li>
+                            <li class="skills__item">Опыт работы с git, JIRA, IDE - WebStorm, OS: Windows, Linux.</li>
+                            <li class="skills__item">Английский язык Intermediate</li>
+                          </ul>
+                          <h5>Помимо основных навыков:</h5>
+                          <ul class="skills__list">
+                            <li class="skills__item">Имею представление о PHP и SQL (вузовский курс), C#</li>
+                            <li class="skills__item">Изучаю Node.js (Express.js)</li>
+                          </ul>
+                        </columns>
+                        <columns large="1" small="1"></columns>
+                      </row>
+                    </container>
+                    <container class="contact">
+                      <spacer size="15"></spacer>
+                      <row>
+                        <columns large="10" small="10" class="large-offset-1 small-offset-1">
+                          <h2 class="contact__title">Контакты</h2>
+                            <spacer size="15"></spacer>
+                          <p class="contact__text">
+                            Ниже представлена контактная информация. Предпочтительным 
+                            способом связи является электронная почта.
+                          </p>
+                        </columns>
+                        <columns large="1" small="1"></columns>
+                      </row>
+                      <row>
+                        <columns large="12" class="contact__link">
+                          <center><a href="mailto:bohdan.boiko@gmail.com">bohdan.boiko@gmail.com</a></center>
+                        </columns>
+                      </row>
+                      <spacer size="5"></spacer>
+                      <row>
+                        <columns large="12" class="contact__link">
+                          <center><a href="tel:+380935421202">+380935421202</a></center>
+                        </columns>
+                      </row>
+                    </container>
+                    <container class="foot">
+                    <spacer size="5"></spacer>
+                      <row>
+                        <columns small='6' large='6' class="foot__item first">
+                          <a href=""><center><img src="img/github.png" alt="GitHub" /></center></a>
+                        </columns>
+                        <columns small='6' large='6' class="foot__item">
+                          <a href=""><center><img src="img/google.png" alt="GitHub" class="google" /></center></a>
+                        </columns>
+                      </row>
+                    </container>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
